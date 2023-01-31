@@ -1685,7 +1685,7 @@ function initSync(module) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('fragment_playground-6aeaf3327c039da9_bg.wasm', import.meta.url);
+        input = new URL('fragment_playground-9807af429d9dcab7_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
