@@ -1,7 +1,8 @@
 html, body {
     margin: 0;
     height: 100%;
-    overflow: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -25,6 +26,7 @@ button:hover {
 
 .container {
     position: relative;
+    height: 100%;
 }
 
 .overlay {
@@ -57,6 +59,8 @@ button:hover {
 
 .canvas {
     position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 .anomaly_list {
